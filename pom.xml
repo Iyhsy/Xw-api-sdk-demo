@@ -15,6 +15,8 @@
     <description>Xw-api-sdk-demo</description>
     <properties>
         <java.version>1.8</java.version>
+        <Xw-api-sdk.version>1.0.5</Xw-api-sdk.version>
+        <EasyWeb.version>1.0.0</EasyWeb.version>
     </properties>
     <dependencies>
         <dependency>
@@ -24,7 +26,7 @@
         <dependency>
             <groupId>icu.xwang</groupId>
             <artifactId>Xw-api-sdk</artifactId>
-            <version>1.0.1</version>
+            <version>${Xw-api-sdk.version}</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -33,7 +35,7 @@
         <dependency>
             <groupId>icu.xwang</groupId>
             <artifactId>EasyWeb</artifactId>
-            <version>1.0.0</version>
+            <version>${EasyWeb.version}</version>
         </dependency>
         <dependency>
             <groupId>com.google.code.gson</groupId>
